@@ -5,17 +5,10 @@ This Subgraph dynamically tracks activity on any Gnosis Safe multisignature wall
 
 ### Subgraphs
 
-#### Hosted service
-- Mainnet https://thegraph.com/explorer/subgraph/gjeanmart/gnosis-safe-mainnet
-- Ropsten https://thegraph.com/explorer/subgraph/gjeanmart/gnosis-safe-ropsten
-- Kovan https://thegraph.com/explorer/subgraph/gjeanmart/gnosis-safe-kovan
-- Goerli https://thegraph.com/explorer/subgraph/gjeanmart/gnosis-safe-goerli
-- Polygon https://thegraph.com/explorer/subgraph/gjeanmart/gnosis-safe-polygon
-- Mumbai (Polygon testnet) https://thegraph.com/explorer/subgraph/gjeanmart/gnosis-safe-mumbai
-
 #### Decentralized network
 
 - Mainnet https://thegraph.com/studio/subgraph/gnosis-safe-mainnet/
+- Polygon https://thegraph.com/studio/subgraph/gnosis-safe-polygon/
 
 ## Prerequiste
 
