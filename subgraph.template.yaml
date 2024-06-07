@@ -1,11 +1,11 @@
-specVersion: 0.0.4
+specVersion: 1.0.0
 description: Gnosis Safe Subgraph
 features:
   - nonFatalErrors
-  - grafting
+  # - grafting
 # graft:
-#   base: QmRYrGKGGBzRJCEZNaeFdrKjNsrA8JVbY9rYExz1fS1ybD
-#   block: 15013333
+#   base: QmWaXR3Cx9Ycao4b4x1tZ52DFSb41YcCPXWAeSPq44RdVi
+#   block: 16178789
 schema:
   file: ./schema.graphql
 dataSources:
@@ -18,7 +18,7 @@ dataSources:
       startBlock: {{factory.v1_1_1.birthBlock}}
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       file: ./src/factory.ts
       entities:
@@ -41,7 +41,7 @@ dataSources:
       startBlock: {{factory.v1_3_0.birthBlock}}
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       file: ./src/factory.ts
       entities:
@@ -63,7 +63,7 @@ templates:
       abi: GnosisSafe
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       file: ./src/wallet.ts
       entities:
